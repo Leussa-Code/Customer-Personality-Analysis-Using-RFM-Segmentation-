@@ -1,3 +1,4 @@
+
 # Customer-Personality-Analysis-Using-RFM-Segmentation-
 This project provides a 360-degree view of customer demographics, purchasing behavior, channel preferences, and marketing responsiveness. RFM segmentation enables targeted decision-making,
 while campaign analyses supports optimization of marketing spend.
@@ -19,18 +20,18 @@ Without segmentation, marketing campaigns are generic, less effective, and costl
 # 3. Dataset Description
 The dataset contains customer‑level information across four major dimensions:
 
-3.1 Demographic Data
+## 3.1 Demographic Data
 Year_Birth
 Education
 Marital_Status
 Income
 Kidhome, Teenhome
-3.2 Customer Engagement
+## 3.2 Customer Engagement
 Dt_Customer
 Recency
 NumWebVisitsMonth
 NumDealsPurchase
-3.3 Purchasing Behavior
+## 3.3 Purchasing Behavior
 MntWines
 MntFruits
 MntMeatProduct
@@ -40,12 +41,12 @@ MntGoldProds
 NumWebPurchase
 NumCataloguePurchase
 NumStorePurchase
-3.4 Campaign Response
+## 3.4 Campaign Response
 AcceptedCmp1–5
 Response
 Complain
-4. Methodology
-4.1 Data Preparation (Power Query)
+# 4. Methodology
+## 4.1 Data Preparation (Power Query)
 The following transformations were applied:
 
 Age calculated from Year_Birth
@@ -59,7 +60,7 @@ Data cleaning steps included:
 Removal of invalid income values
 Standardization of categorical fields
 Validation of numeric ranges
-4.2 Feature Engineering
+## 4.2 Feature Engineering
 Key analytical metrics were created using DAX:
 
 Total Spending
@@ -69,7 +70,7 @@ Deal Sensitivity Ratio
 Campaign Acceptance Count
 These features form the foundation for behavioral and value‑based segmentation.
 
-5. RFM Analysis Framework
+# 5. RFM Analysis Framework
 RFM (Recency, Frequency, Monetary) analysis was applied to evaluate customer value:
 
 Recency (R): How recently a customer made a purchase
@@ -83,17 +84,17 @@ Loyal Customers
 Potential Loyalists
 At Risk
 Lost Customers
-6. Dashboard Design (Power BI)
+# 6. Dashboard Design (Power BI)
 The report consists of multiple interactive pages:
 
-6.1 Customer Overview
+## 6.1 Customer Overview
 KPI Cards: Total Customers, Avg Age, Avg Income, Avg Spending
 Customer distribution by Age Group and Marital Category
-6.2 Spending Behavior
+## 6.2 Spending Behavior
 Total Spending by Product Category
 Average Spending by Income Band
 Spending patterns by Family Size
-6.3 Purchase & Channel Behavior
+## 6.3 Purchase & Channel Behavior
 Purchases by Channel (Web, Store, Catalogue)
 Web Visits vs Web Purchases scatter analysis
 Deal sensitivity by segment
@@ -101,25 +102,25 @@ Deal sensitivity by segment
 Segment distribution
 Revenue contribution by segment
 Recency vs Monetary scatter plot
-6.5 Campaign Performance
+## 6.5 Campaign Performance
 Campaign acceptance rates
 Spending comparison between responders and non‑responders
 Impact of complaints on customer value
 Slicers and tooltips were implemented to enhance interactivity and usability.
 
-7. Key Insights
+# 7. Key Insights
 A small proportion of customers (Champions) contribute a significant share of total revenue
 Wine and meat products are the primary revenue drivers across high‑value segments
 Multi‑channel customers demonstrate higher engagement and spending
 Deal‑sensitive customers purchase frequently but generate lower revenue
 Customers who respond to campaigns show significantly higher average spending
-8. Business Recommendations
+# 8. Business Recommendations
 Focus retention and loyalty programs on Champion and Loyal segments
 Use personalized offers to convert Potential Loyalists into high‑value customers
 Re‑engage At‑Risk customers using targeted campaigns
 Optimize marketing spend by prioritizing high‑response customer segments
 Improve customer service to reduce complaints and protect revenue
-9. Tools & Technologies
+# 9. Tools & Technologies
 Power BI
 Power Query
 DAX
