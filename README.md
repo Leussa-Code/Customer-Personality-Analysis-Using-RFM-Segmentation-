@@ -1,3 +1,4 @@
+The Dataset Used in this project is imported from kaggle.com
 
 # Customer-Personality-Analysis-Using-RFM-Segmentation-
 This project provides a 360-degree view of customer demographics, purchasing behavior, channel preferences, and marketing responsiveness. RFM segmentation enables targeted decision-making,
